@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.yoga_1202152172_modul2.dineActivity">
+
+    <TextView
+        android:id="@+id/Tect_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Detail Customer:"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/pilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_meja"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="PILIH PESANAN" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tect_View"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/meja"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Tect_View"
+        android:layout_alignRight="@+id/Tect_View"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/no_meja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/meja"
+        android:layout_toLeftOf="@+id/meja"
+        android:layout_toStartOf="@+id/meja"
+        android:text="No Meja :"
+        android:textSize="17dp" />
+
+</RelativeLayout>

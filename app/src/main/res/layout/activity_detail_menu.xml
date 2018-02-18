@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.yoga_1202152172_modul2.detailMenu">
+
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Nama  Makanan"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="27dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/nama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="Harga" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/harga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="Komposisi" />
+
+    <TextView
+        android:id="@+id/komposisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/harga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Detail Komposisi" />
+
+</RelativeLayout>

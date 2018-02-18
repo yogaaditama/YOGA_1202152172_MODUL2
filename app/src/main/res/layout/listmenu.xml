@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/itemlist"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_gambar"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/image_gambar"
+        android:layout_toRightOf="@+id/image_gambar"
+        android:text="Rawon"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/sub_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_gambar"
+        android:layout_toEndOf="@+id/image_gambar"
+        android:layout_toRightOf="@+id/image_gambar"
+        android:text="Harga Rp 25.000" />
+
+    <ImageView
+        android:id="@+id/image_gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+</RelativeLayout>
